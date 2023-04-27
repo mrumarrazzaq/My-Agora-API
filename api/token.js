@@ -11,9 +11,9 @@ router.get("/", (req, res) => {
         // console.log(channelName);
         // console.log(uid);
 
-        const appId = "8c8b691ac63e49baa675335905114819";
+        const appId = "f6a59f6c0f794394af3604bb174cb945";
         const appCertificate = "689af7973c6740a69b813542af2c15b1";
-        const channelName = "video-call";
+        const channelName = "sbs";
         const uid = 0;
         const role = RtcRole.PUBLISHER;
         const expirationTimeInSeconds = 3600;
