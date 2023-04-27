@@ -31,7 +31,8 @@ router.get("/", (req, res) => {
         // console.log("Token with integer number Uid: " + token);
 
         // Return the token as the response
-        res.send(token);
+        // res.send(token);
+        res.json({ token: token });
     }
     catch (e) {
         res.status(500).send("Server error.")
